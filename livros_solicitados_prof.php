@@ -24,7 +24,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST" && !empty($_POST["livro"])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Livros Cadastrados</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style/login.css">
+
 </head>
 <body class="d-flex flex-column justify-content-center align-items-center vh-100">
     <div class="p-4 border rounded shadow-sm text-center" style="width: 400px;">
