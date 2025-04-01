@@ -25,7 +25,7 @@ $livrosSolicitados = file_exists($arquivoSolicitados) ? file($arquivoSolicitados
             <?php endif; ?>
         </ul>
 
-        <a href="index.php" class="btn btn-primary w-100 mt-3">Voltar</a>
+        <a href="dashBoard_biblio.php" class="btn btn-primary w-100 mt-3">Voltar</a>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
