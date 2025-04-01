@@ -6,12 +6,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $password = isset($_POST['password']) ? trim($_POST['password']) : '';
     
     if (!empty($username) && !empty($password)) {
-        if ($username === 'p' && $password === 'p') {
+        if ($username === 'professor' && $password === 'professor') {
             $_SESSION['login'] = TRUE;
             $_SESSION["username"] = 'prof';
             header("location: dashBoard_professor.php");
             exit();
-        } elseif ($username === 'b' && $password === 'b') {
+        } elseif ($username === 'biblio' && $password === 'biblio') {
             $_SESSION['login'] = TRUE;
             $_SESSION["username"] = 'biblio';
             header("location: dashBoard_biblio.php");
