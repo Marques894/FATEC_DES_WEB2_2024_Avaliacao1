@@ -15,7 +15,7 @@
     <div class="p-4 border rounded shadow-sm text-center" style="width: 300px;">
         <h4 class="mb-4">DashBoard Professor</h4>
         <div class="d-flex flex-column gap-2">
-            <a href="livros_cadastrados_prof.php" class="btn btn-outline-primary">Livros Cadastrados</a>
+            <a href="livros_solicitados_prof.php" class="btn btn-outline-primary">Livros Cadastrados</a>
         </div>
         <a href="login.php" class="btn btn-primary mt-3">Voltar</a>
     </div>
